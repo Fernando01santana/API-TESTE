@@ -7,5 +7,5 @@ app.get('/categories', (req, res) => {
 })
  
 app.listen(process.env.PORT || 5000,()=>{ 
-  console.log(`SERVIDOR ON http://localhost:${port}`)
+  console.log('SERVIDOR ON')
 });
