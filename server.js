@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 const data = require('./data/info.json') 
 
-app.get('/', (req, res) => {
+app.get('/categories', (req, res) => {
   res.send(data)
 })
  
